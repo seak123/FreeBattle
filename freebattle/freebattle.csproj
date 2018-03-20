@@ -78,7 +78,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameRoot.cs" />
+    <Compile Include="Assets\PowerInject\Annotations.cs" />
+    <Compile Include="Assets\PowerInject\ConsoleLogger.cs" />
+    <Compile Include="Assets\PowerInject\ConstructorComparable.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\ExecutionOrder\ExecutionA.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\ExecutionOrder\ExecutionB.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\CameraProvider.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\CameraUpdater.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\CheckIfOverSelectedMoves.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\Dot.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\GameInit.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\GameState.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\HUD.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\ISelectedMoves.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\Labyrinth.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\Monster.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\Player.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\PointsKeeper.cs" />
+    <Compile Include="Assets\PowerInject\DemoScenes\MonsterChase\SelectedMovesFromKeyboard.cs" />
+    <Compile Include="Assets\PowerInject\Field.cs" />
+    <Compile Include="Assets\PowerInject\FinalValue.cs" />
+    <Compile Include="Assets\PowerInject\FunctionObject.cs" />
+    <Compile Include="Assets\PowerInject\IKey.cs" />
+    <Compile Include="Assets\PowerInject\ILogger.cs" />
+    <Compile Include="Assets\PowerInject\Invokeable.cs" />
+    <Compile Include="Assets\PowerInject\KeyProducer.cs" />
+    <Compile Include="Assets\PowerInject\MethodInfoObject.cs" />
+    <Compile Include="Assets\PowerInject\NamedTypeKey.cs" />
+    <Compile Include="Assets\PowerInject\PipelineContainer.cs" />
+    <Compile Include="Assets\PowerInject\PowerPipeline.cs" />
+    <Compile Include="Assets\PowerInject\Producer.cs" />
+    <Compile Include="Assets\PowerInject\Property.cs" />
+    <Compile Include="Assets\PowerInject\ReflectionUtils.cs" />
+    <Compile Include="Assets\PowerInject\TypeKey.cs" />
+    <Compile Include="Assets\PowerInject\UnityLogger.cs" />
+    <Compile Include="Assets\PowerInject\Utils.cs" />
+    <Compile Include="Assets\Scripts\Core\GameRoot.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
