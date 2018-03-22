@@ -6,6 +6,10 @@ using PowerInject;
 [Insert]
 public class BattleField : IManager
 {
-    public void AwakeFunc() { }
-    public void UpdateFunc() { }
+
+    
+
+
+    public void Init() { }
+    public void update() { }
 }

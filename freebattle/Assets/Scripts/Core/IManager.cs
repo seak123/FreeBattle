@@ -2,7 +2,7 @@ using UnityEngine;
 
 interface IManager
 {
-    void AwakeFunc();
-    void UpdateFunc();
+    void Init();
+    void update();
 
 }
